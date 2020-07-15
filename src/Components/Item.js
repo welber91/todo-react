@@ -46,7 +46,7 @@ function Item(props) {
           onClick={(e) => {
             props.setEditMode(props.id);
           }}
-          style={{ width: 200, display: "inline-block", textAlign: "left" }}
+          style={{ width: 400, display: "inline-block", textAlign: "left" }}
         >
           {displayText()}
         </span>

@@ -16,6 +16,7 @@ function Insert(props) {
 
   return (
     <input
+      style={{ width: 400 }}
       ref={(input) => {
         inputElement = input;
       }}
